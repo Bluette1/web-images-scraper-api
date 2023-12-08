@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -48,5 +46,6 @@ gem 'redis-namespace'
 gem 'redis-rack-cache'
 gem 'redis-rails'
 gem 'rubocop'
+gem 'rubocop-rails'
 gem 'selenium-webdriver'
 gem 'sidekiq-cron'
