@@ -1,0 +1,12 @@
+require:
+  - rubocop-rails
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+GlobalVars:
+  AllowedVariables:
+  - $redis
+  
+Style/Documentation:
+  Enabled: false
