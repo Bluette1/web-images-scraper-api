@@ -1,0 +1,4 @@
+update_images_job:
+  cron: "every 30 seconds" 
+  class: "ImagesWorker"
+  args: []

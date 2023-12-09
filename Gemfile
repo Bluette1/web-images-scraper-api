@@ -49,3 +49,4 @@ gem 'rubocop'
 gem 'rubocop-rails'
 gem 'selenium-webdriver'
 gem 'sidekiq-cron'
+gem 'whenever', require: false
