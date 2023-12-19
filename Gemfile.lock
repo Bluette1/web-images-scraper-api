@@ -127,6 +127,8 @@ GEM
     rack (2.2.8)
     rack-cache (1.14.0)
       rack (>= 0.4)
+    rack-cors (2.0.1)
+      rack (>= 2.0.0)
     rack-session (1.0.2)
       rack (< 3)
     rack-test (2.1.0)
@@ -256,6 +258,7 @@ DEPENDENCIES
   hiredis
   listen (~> 3.3)
   puma (~> 5.0)
+  rack-cors
   rails (~> 6.1.7, >= 6.1.7.6)
   redis
   redis-namespace
