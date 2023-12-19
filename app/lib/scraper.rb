@@ -7,6 +7,7 @@ class Scraper
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-gpu')
     options.add_argument('--remote-debugging-port=9222')
+    options.add_argument('--disable-dev-shm-usage')
 
     @driver = Selenium::WebDriver.for(:chrome, options:)
     @driver.get 'https://picjumbo.com/free-stock-photos/nature/page/1'
