@@ -25,10 +25,9 @@ module WebImagesScraperApi
     config.load_defaults 6.1
 
     # Configuration for the application, engines, and railties goes here.
-    # config.cache_store = :redis_cache_store,
-    #                      { driver: :hiredis, url: "redis://#{ENV['REDIS_HOST']}:#{ENV['REDIS_PORT']}/2/cache" }
 
-                         config.cache_store = :redis_cache_store, { driver: :hiredis, url: "#{ENV['REDIS_URL']}/2/cache" }
+    config.cache_store = :redis_cache_store,
+                         { driver: :hiredis, url: "#{ENV['REDIS_URL']}/2/cache" }
 
     #
     # These settings can be overridden in specific environments using the files

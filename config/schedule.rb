@@ -19,6 +19,6 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every 1.days do
-    rake 'repeat:fetch_images'
+every 1.day do
+  rake 'repeat:fetch_images'
 end

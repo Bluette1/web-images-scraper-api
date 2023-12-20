@@ -41,6 +41,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'dotenv-rails'
 gem 'hiredis'
+gem 'rack-cors'
 gem 'redis'
 gem 'redis-namespace'
 gem 'redis-rack-cache'
@@ -50,4 +51,3 @@ gem 'rubocop-rails'
 gem 'selenium-webdriver'
 gem 'sidekiq-cron'
 gem 'whenever', require: false
-gem 'rack-cors'

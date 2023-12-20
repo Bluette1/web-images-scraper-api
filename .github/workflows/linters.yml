@@ -1,0 +1,25 @@
+---
+name: Linters
+on: pull_request
+env:
+  FORCE_COLOR: 1
+jobs:
+  rubocop:
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+        ruby:
+          - "3.1"
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - run: |
+          gem install --no-document rubocop:'~>1.51.0' 
+          [ -f .rubocop.yml ] || wget https://raw.githubusercontent.com/microverseinc/linters-config/master/ror/.rubocop.yml
+          rubocop --color
+  
