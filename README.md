@@ -44,7 +44,7 @@ Make sure the server is running
         heroku buildpacks:add heroku/chromedriver
         heroku buildpacks:add heroku/google-chrome
         ```
-
+    to add the required buildpacks.
 
 ## Authors
 
