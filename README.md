@@ -10,7 +10,6 @@
 ## Description
 - Backend for the [ waller-photo-slideshow](https://github.com/Bluette1/waller-photo-slideshow) app.
 
-
 ## Live Demo
 [Live Demo](https://web-images-scraper-api-447ae0d211ff.herokuapp.com/)
 
