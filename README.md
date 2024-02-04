@@ -11,7 +11,7 @@
 - Backend for the [ waller-photo-slideshow](https://github.com/Bluette1/waller-photo-slideshow) app.
 
 ## Live Demo
-[Live Demo](https://web-images-scraper-api-447ae0d211ff.herokuapp.com/)
+[Live Demo](https://waller-photo-slideshow-api-ab2e9021d83f.herokuapp.com/)
 
 ### Run instructions 
 - Make sure Redis is running, if not by type the following commands in the terminal to start the Redis server
