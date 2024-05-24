@@ -46,6 +46,8 @@ Make sure the server is running
         ```
     to add the required buildpacks.
 
+<ins>Note</ins>: The [heroku-buildpack-chromedriver](https://github.com/heroku/heroku-buildpack-chrome-for-testing) is now deprecated. Use this [buildpack](https://github.com/heroku/heroku-buildpack-chrome-for-testing) instead.
+
 ## Authors
 
 👤 **Marylene Sawyer**
