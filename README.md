@@ -11,10 +11,10 @@
 - Backend for the [ waller-photo-slideshow](https://github.com/Bluette1/waller-photo-slideshow) app.
 
 ## Live Demo
-[Live Demo](https://waller-photo-slideshow-api-ab2e9021d83f.herokuapp.com/)
+[Live Demo](https://web-images-scraper-api-8987eed4eadb.herokuapp.com/)
 
 ### Run instructions 
-- Make sure Redis is running, if not by type the following commands in the terminal to start the Redis server
+- Make sure Redis is running, if not type the following commands in the terminal to start the Redis server
 
 `
     redis-server --daemonize yes
@@ -48,6 +48,8 @@ Make sure the server is running
 
 <ins>Note</ins>: The [heroku-buildpack-chromedriver](https://github.com/heroku/heroku-buildpack-chrome-for-testing) is now deprecated. Use this [buildpack](https://github.com/heroku/heroku-buildpack-chrome-for-testing) instead.
 
+  - Also remember to scale your dyno formation from the Heroku CLI with the ps:scale command:
+`heroku ps:scale worker=1`
 ## Authors
 
 👤 **Marylene Sawyer**
