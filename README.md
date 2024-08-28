@@ -30,7 +30,7 @@ Make sure the server is running
 - Go to http://localhost:3000/ in your web browser
 
 
-- Follow the links on the [web-images-scraper-api](https://waller-photo-slideshow.netlify.app) to access the available features.
+- Follow the links on the [waller-photo-slideshow](https://waller-photo-slideshow.netlify.app) to access the available features.
 
 
 ### Setting up env variables
